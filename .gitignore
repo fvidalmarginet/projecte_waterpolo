@@ -1,0 +1,6 @@
+venv/
+backend/db.sqlite3
+backend/projecte_waterpolo/__pycache__/
+*.pyc
+*.pyo
+*.pyd
