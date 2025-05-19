@@ -7,3 +7,7 @@ from .serializer import MatchSerializer
 class MatchListCreateAPIView(generics.ListCreateAPIView):
     queryset = Match.objects.all()
     serializer_class = MatchSerializer
+
+class MatchRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Match.objects.all()
+    serializer_class = MatchSerializer
