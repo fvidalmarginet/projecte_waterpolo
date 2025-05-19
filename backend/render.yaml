@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: waterpolo-backend
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn projecte_waterpolo.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: projecte_waterpolo.settings
