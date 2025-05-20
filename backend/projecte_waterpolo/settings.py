@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-by%yc08f#sx1#2k%nt5ej@z@r^2zb5vzzeed_5)yfu7qf+jhi!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['projecte-waterpolo.onrender.com']
+ALLOWED_HOSTS = ['https://waterpolo-backend-7zrr.onrender.com/']
 
 
 # Application definition
